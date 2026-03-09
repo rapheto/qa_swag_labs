@@ -1,9 +1,3 @@
-# "1 - Add one item to the cart
-# 2 - Go to Cart
-# 3 - Click checkout button
-# 4 - Click continue without filling the personal information fields
-# 5 - Verify that an error message asking user to fill the fields is shown"
-
 from Pages.login_page import LoginPage
 
 def test_going_to_checkout_without_required_informations_ts_008(driver):
