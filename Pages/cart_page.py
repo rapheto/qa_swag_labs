@@ -1,5 +1,5 @@
 from Pages.base_page import BasePage
-
+from Pages.personal_info_page import PersonalInfoPage
 from selenium.webdriver.common.by import By
 from logger import log
 
@@ -9,6 +9,7 @@ class CartPage(BasePage):
         #Locators
         self.CART_REMOVE_BUTTON_SAUCE_LABS_BACKPACK_ID = 'remove-sauce-labs-backpack'
         self.CART_ITEM_CARD_SAUCE_LABS_BACKPACK_CLASS = 'inventory_item_name'
+        self.CART_CHECKOUT_BUTTON_ID = 'checkout'
         
     def get_item_on_cart(self):
         log.info("Get item's name in the cart")
@@ -17,6 +18,11 @@ class CartPage(BasePage):
     def remove_item_from_cart(self):
         log.info("Remove item from cart")
         self.click_element(By.ID, self.CART_REMOVE_BUTTON_SAUCE_LABS_BACKPACK_ID)
+        
+    def go_to_personal_info(self):
+        log.info("Go to personal info")
+        self.click_element(By.ID, self.CART_CHECKOUT_BUTTON_ID)
+        return PersonalInfoPage(self.driver)
     
     def verify_that_backpack_is_not_displayed(self):
         log.info("Cart is empty")
