@@ -1,6 +1,6 @@
 # QA SWAG LABS AUTOMATION
 
-## Setup
+## Setup (macOS)
 1. Clone the repository
 2. Create a virtual environment
 ```bash
