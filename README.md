@@ -1,7 +1,7 @@
 # QA SWAG LABS
 
 ## MANUAL
-- [QA SWAG LABS MANUAL DOCUMENTATION]([https://youtu.be/RWkHrLtpKgE]()](https://docs.google.com/spreadsheets/d/16VLnkQtydalAANQb1jFuHWIcO4-PANUaIxsWwz3rC1c/edit?usp=sharing)](https://docs.google.com/spreadsheets/d/16VLnkQtydalAANQb1jFuHWIcO4-PANUaIxsWwz3rC1c/edit?usp=sharing))
+- [QA SWAG LABS MANUAL DOCUMENTATION](https://docs.google.com/spreadsheets/d/16VLnkQtydalAANQb1jFuHWIcO4-PANUaIxsWwz3rC1c/edit?usp=sharing)
 
 ##  AUTOMATION
 
